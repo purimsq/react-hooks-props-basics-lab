@@ -1,5 +1,5 @@
 import React from "react";
-
+import {props} from "../data/user";
 function Home(props) {
   return (
     <div id="home">

@@ -1,4 +1,4 @@
-const user = {
+ const user = {
   name: "Liza",
   city: "New York",
   bio: "I made this!",
@@ -9,4 +9,12 @@ const user = {
   },
 };
 
-export default user;
+function props() {
+return(
+  <div>{user}</div>
+)
+}
+export default props;
+
+
+
